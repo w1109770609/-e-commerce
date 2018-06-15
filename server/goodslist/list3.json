@@ -1,0 +1,1079 @@
+{
+  "success": true,
+  "returnCode": "1001",
+  "returnMessage": null,
+  "data": {
+    "filter": {
+      "title": "美丽说wap首页",
+      "list": [{
+          "fcid": "10057922",
+          "style": null,
+          "sort": "pop",
+          "title": "流行",
+          "type": "sort"
+        },
+        {
+          "fcid": "10057922",
+          "style": null,
+          "sort": "sell",
+          "title": "热销",
+          "type": "sort"
+        },
+        {
+          "fcid": "10057922",
+          "style": null,
+          "sort": "new",
+          "title": "上新",
+          "type": "sort"
+        }
+      ]
+    },
+    "total": 215430,
+    "param": {
+      "eventId": 70003,
+      "cpcEventId": 70005,
+      "section": "0",
+      "_mgjuuid": "e61a3677-d308-472e-a1be-b5f71dee0444",
+      "sort": "pop",
+      "ptpWallDoc": "_wall_docs",
+      "ptpPartC": "_mb_mls_10057922_wap-index_noab-noab",
+      "cpc_offset": 0,
+      "ptpWallCpc": "_wall_cpc",
+      "cKey": "wap-index",
+      "minPrice": "5",
+      "fcid": "10057922",
+      "page": "3"
+    },
+    "page": 3,
+    "sort": "pop",
+    "list": [{
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lrx13q?acm=3.ms.0_4_1lrx13q.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1lrx13q",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180228_867769c3j2ke83al1bddjf5gh3ha4_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lrx13q?acm=3.ms.0_4_1lrx13q.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180228_867769c3j2ke83al1bddjf5gh3ha4_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.0_4_1lrx13q.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "【2件59元】【新品特惠】夏装新款纯棉t恤女高品质短袖白色圆领宽松学生半袖上衣女",
+        "orgPrice": "￥56.00",
+        "cparam": null,
+        "props": [
+          "【2件59元】【新品特惠】夏装新款纯棉t恤女高品质短袖白色圆领宽松学生半袖上衣女"
+        ],
+        "lefttop_taglist": [],
+        "sale": 3399,
+        "price": "39.00",
+        "cfav": 541,
+        "leftbottom_taglist": [],
+        "shopId": 1302412599,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m03yfa?acm=3.ms.0_4_1m03yfa.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m03yfa",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180503_4e64b5jgb39ji213ilbljggj2k4aj_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m03yfa?acm=3.ms.0_4_1m03yfa.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180503_4e64b5jgb39ji213ilbljggj2k4aj_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232 2 1525 138 172 173",
+        "acm": "3.ms.0_4_1m03yfa.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "夏季新款女装韩版小清新学生宽松字母印花拼接网纱过膝假两件中长款A字裙短袖T恤连衣裙女夏",
+        "orgPrice": "￥111.43",
+        "cparam": null,
+        "props": [
+          "夏季新款女装韩版小清新学生宽松字母印花拼接网纱过膝假两件中长款A字裙短袖T恤连衣裙女夏"
+        ],
+        "lefttop_taglist": [],
+        "sale": 3935,
+        "price": "78.00",
+        "cfav": 570,
+        "leftbottom_taglist": [],
+        "shopId": 670734,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m2qqmo?acm=3.ms.2_1_1m2qqmo.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394822589_439423423_37_0-t_-lc_32-c1_10057922_nil_nil_1_439423423_40_0&cparam=MTUyODg1NzA5OV8xZDI0dTV1X2ZmYzc0ZmMzODJlMGQ3ZjBjODNkM2NhNmUzOWY5OTRiXzMyXzBfMzk0ODIyNTg5XzBfMF8zN18wXzI4N18wXzA=",
+        "iid": "1m2qqmo",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/55cf19/180528_8464lhgb57k4ahic809cei5j8akbj_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m2qqmo?acm=3.ms.2_1_1m2qqmo.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394822589_439423423_37_0-t_-lc_32-c1_10057922_nil_nil_1_439423423_40_0&cparam=MTUyODg1NzA5OV8xZDI0dTV1X2ZmYzc0ZmMzODJlMGQ3ZjBjODNkM2NhNmUzOWY5OTRiXzMyXzBfMzk0ODIyNTg5XzBfMF8zN18wXzI4N18wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/55cf19/180528_8464lhgb57k4ahic809cei5j8akbj_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m2qqmo.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394822589_439423423_37_0-t_-lc_32-c1_10057922_nil_nil_1_439423423_40_0",
+        "type": 2,
+        "title": "2018夏装韩版学院风简约百搭圆领菠萝T恤宽松显瘦短袖上衣女装潮",
+        "orgPrice": "￥55.71",
+        "cparam": "MTUyODg1NzA5OV8xZDI0dTV1X2ZmYzc0ZmMzODJlMGQ3ZjBjODNkM2NhNmUzOWY5OTRiXzMyXzBfMzk0ODIyNTg5XzBfMF8zN18wXzI4N18wXzA=",
+        "props": [
+          "2018夏装韩版学院风简约百搭圆领菠萝T恤宽松显瘦短袖上衣女装潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": "262",
+        "price": "38.99",
+        "cfav": "114",
+        "leftbottom_taglist": [
+          "http://s2.mogucdn.com/p2/170307/1_53je1gbj88bjheidae4al1le4h94i_60x28.png"
+        ],
+        "shopId": "1302406697",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lsfh1g?acm=3.ms.2_1_1lsfh1g.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_338323809_398590389_38_0-t_-lc_32-c1_10057922_nil_nil_1_398590389_38_0&cparam=MTUyODg1NzA5OV8xYjZ1d29xXzYxZGEyMTNmMjc2ZmRjMzI5OTFmZjJiYjA5YzZkODE2XzMyXzFfMzM4MzIzODA5XzBfMF8zOF8wXzE2NF8wXzA=",
+        "iid": "1lsfh1g",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180306_40fd832gi15j43ha6akj39ff2bg73_640x959.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lsfh1g?acm=3.ms.2_1_1lsfh1g.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_338323809_398590389_38_0-t_-lc_32-c1_10057922_nil_nil_1_398590389_38_0&cparam=MTUyODg1NzA5OV8xYjZ1d29xXzYxZGEyMTNmMjc2ZmRjMzI5OTFmZjJiYjA5YzZkODE2XzMyXzFfMzM4MzIzODA5XzBfMF8zOF8wXzE2NF8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180306_40fd832gi15j43ha6akj39ff2bg73_640x959.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 352 351",
+        "acm": "3.ms.2_1_1lsfh1g.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_338323809_398590389_38_0-t_-lc_32-c1_10057922_nil_nil_1_398590389_38_0",
+        "type": 2,
+        "title": "半高领短袖T恤chic上衣女春装2018新款韩版百搭修身打底衫衣服纯棉体恤学生",
+        "orgPrice": "￥51.28",
+        "cparam": "MTUyODg1NzA5OV8xYjZ1d29xXzYxZGEyMTNmMjc2ZmRjMzI5OTFmZjJiYjA5YzZkODE2XzMyXzFfMzM4MzIzODA5XzBfMF8zOF8wXzE2NF8wXzA=",
+        "props": [
+          "半高领短袖T恤chic上衣女春装2018新款韩版百搭修身打底衫衣服纯棉体恤学生"
+        ],
+        "lefttop_taglist": [],
+        "sale": "487",
+        "price": "35.89",
+        "cfav": "3170",
+        "leftbottom_taglist": [
+          "http://s2.mogucdn.com/p2/170307/1_5k6k8eiffl43633479294a49f8gci_60x28.png"
+        ],
+        "shopId": "20234338",
+        "popularStar": null
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m1seyc?acm=3.ms.0_4_1m1seyc.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m1seyc",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180519_4ihj37e9al8i6725hf15058cb7k3g_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m1seyc?acm=3.ms.0_4_1m1seyc.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180519_4ihj37e9al8i6725hf15058cb7k3g_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 82",
+        "acm": "3.ms.0_4_1m1seyc.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "【49元两件】夏季情侣装新款紫色ins短袖全幼儿园最戏精印花仙女闺蜜装宽松韩版学生班服T恤",
+        "orgPrice": "￥40.00",
+        "cparam": null,
+        "props": [
+          "【49元两件】夏季情侣装新款紫色ins短袖全幼儿园最戏精印花仙女闺蜜装宽松韩版学生班服T恤"
+        ],
+        "lefttop_taglist": [],
+        "sale": 3094,
+        "price": "28.00",
+        "cfav": 586,
+        "leftbottom_taglist": [],
+        "shopId": 21689979,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3aj30?acm=3.ms.0_4_1m3aj30.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m3aj30",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/55cf19/180604_1g5c9d3al5hidaa58leajj947631i_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3aj30?acm=3.ms.0_4_1m3aj30.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/55cf19/180604_1g5c9d3al5hidaa58leajj947631i_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.0_4_1m3aj30.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "ins超火宽松百搭背后字母印花短袖T恤女夏装2018新款韩版怪味少女嘻哈中长款上衣女蹦迪潮",
+        "orgPrice": "￥40.00",
+        "cparam": null,
+        "props": [
+          "ins超火宽松百搭背后字母印花短袖T恤女夏装2018新款韩版怪味少女嘻哈中长款上衣女蹦迪潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": 7665,
+        "price": "40.00",
+        "cfav": 145,
+        "leftbottom_taglist": [],
+        "shopId": 1302407795,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1kfjcrm?acm=3.ms.2_1_1kfjcrm.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_239660740_1128750783_39_0-t_-lc_32-c1_10057922_nil_nil_2_1128750783_35_0&cparam=MTUyODg1NzA5OV8xN3hkaXY0XzI3ZjVjMTI2NjZiNzI0NjJmY2M5N2NlZTMwMDhmYjFhXzMyXzJfMjM5NjYwNzQwXzBfMF8zOV8wXzE4Nl8wXzA=",
+        "iid": "1kfjcrm",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180401_32h08gacej3f1f9kj18affl38c095_800x1200.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1kfjcrm?acm=3.ms.2_1_1kfjcrm.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_239660740_1128750783_39_0-t_-lc_32-c1_10057922_nil_nil_2_1128750783_35_0&cparam=MTUyODg1NzA5OV8xN3hkaXY0XzI3ZjVjMTI2NjZiNzI0NjJmY2M5N2NlZTMwMDhmYjFhXzMyXzJfMjM5NjYwNzQwXzBfMF8zOV8wXzE4Nl8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180401_32h08gacej3f1f9kj18affl38c095_800x1200.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.2_1_1kfjcrm.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_239660740_1128750783_39_0-t_-lc_32-c1_10057922_nil_nil_2_1128750783_35_0",
+        "type": 2,
+        "title": "夏季韩版新款港风百搭小清新白色宽松黄色短袖t恤女学生黑色上衣",
+        "orgPrice": "￥42.72",
+        "cparam": "MTUyODg1NzA5OV8xN3hkaXY0XzI3ZjVjMTI2NjZiNzI0NjJmY2M5N2NlZTMwMDhmYjFhXzMyXzJfMjM5NjYwNzQwXzBfMF8zOV8wXzE4Nl8wXzA=",
+        "props": [
+          "夏季韩版新款港风百搭小清新白色宽松黄色短袖t恤女学生黑色上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": "8687",
+        "price": "29.90",
+        "cfav": "20772",
+        "leftbottom_taglist": [],
+        "shopId": "22235597",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m1o6rw?acm=3.ms.2_1_1m1o6rw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394685331_0_40_0-t_-lc_32-c1_10057922_nil_nil_0_0_33_0&cparam=MTUyODg1NzA5OV8xZDF5eWNlX2NmNTM4Mzg3MjBlMjMyY2YwNDgwN2I0MTZlY2M0MTg3XzMyXzNfMzk0Njg1MzMxXzBfMF80MF8wXzc4XzBfMA==",
+        "iid": "1m1o6rw",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180517_4ffdffldg2lf803j1i80ad0fbh27h_640x800.jpg_560x999.jpg",
+          "w": 560,
+          "h": 700
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m1o6rw?acm=3.ms.2_1_1m1o6rw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394685331_0_40_0-t_-lc_32-c1_10057922_nil_nil_0_0_33_0&cparam=MTUyODg1NzA5OV8xZDF5eWNlX2NmNTM4Mzg3MjBlMjMyY2YwNDgwN2I0MTZlY2M0MTg3XzMyXzNfMzk0Njg1MzMxXzBfMF80MF8wXzc4XzBfMA==",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180517_4ffdffldg2lf803j1i80ad0fbh27h_640x800.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.2_1_1m1o6rw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394685331_0_40_0-t_-lc_32-c1_10057922_nil_nil_0_0_33_0",
+        "type": 2,
+        "title": "【买一送一】【多款可选】新款韩版港风情侣装印花短袖T恤女半袖夏季宽松个性简约百搭圆领上衣潮",
+        "orgPrice": "￥50.00",
+        "cparam": "MTUyODg1NzA5OV8xZDF5eWNlX2NmNTM4Mzg3MjBlMjMyY2YwNDgwN2I0MTZlY2M0MTg3XzMyXzNfMzk0Njg1MzMxXzBfMF80MF8wXzc4XzBfMA==",
+        "props": [
+          "【买一送一】【多款可选】新款韩版港风情侣装印花短袖T恤女半袖夏季宽松个性简约百搭圆领上衣潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": "1771",
+        "price": "50.00",
+        "cfav": "38",
+        "leftbottom_taglist": [],
+        "shopId": "1302409772",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m1j3ig?acm=3.ms.2_1_1m1j3ig.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_384896706_440267071_41_0-t_-lc_32-c1_10057922_nil_nil_1_440267071_40_0&cparam=MTUyODg1NzA5OV8xY3FiY2Z3XzIwYjMxNTU3MmFkNDZhMjIyZjcxYzMwNmU5MDRiNWQ4XzMyXzRfMzg0ODk2NzA2XzBfMF80MV8wXzEwM18wXzA=",
+        "iid": "1m1j3ig",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180530_666gibbl8b8cbi4lfilh78cd88h15_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m1j3ig?acm=3.ms.2_1_1m1j3ig.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_384896706_440267071_41_0-t_-lc_32-c1_10057922_nil_nil_1_440267071_40_0&cparam=MTUyODg1NzA5OV8xY3FiY2Z3XzIwYjMxNTU3MmFkNDZhMjIyZjcxYzMwNmU5MDRiNWQ4XzMyXzRfMzg0ODk2NzA2XzBfMF80MV8wXzEwM18wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180530_666gibbl8b8cbi4lfilh78cd88h15_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.2_1_1m1j3ig.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_384896706_440267071_41_0-t_-lc_32-c1_10057922_nil_nil_1_440267071_40_0",
+        "type": 2,
+        "title": "【2件69元】【限时冲量】新款夏季韩范短袖t恤女个性宽松学生条纹百搭半袖女装上衣服体恤女",
+        "orgPrice": "￥70.00",
+        "cparam": "MTUyODg1NzA5OV8xY3FiY2Z3XzIwYjMxNTU3MmFkNDZhMjIyZjcxYzMwNmU5MDRiNWQ4XzMyXzRfMzg0ODk2NzA2XzBfMF80MV8wXzEwM18wXzA=",
+        "props": [
+          "【2件69元】【限时冲量】新款夏季韩范短袖t恤女个性宽松学生条纹百搭半袖女装上衣服体恤女"
+        ],
+        "lefttop_taglist": [],
+        "sale": "1214",
+        "price": "49.00",
+        "cfav": "1540",
+        "leftbottom_taglist": [],
+        "shopId": "1302412599",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m368ry?acm=3.ms.2_1_1m368ry.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393603379_441268968_42_0-t_-lc_32-c1_10057922_nil_nil_1_441268968_28_0&cparam=MTUyODg1NzA5OV8xZDBva255X2EzZThmMjM0ODBmYjk1ZDZiNjhjMzViNDYzZTUzMzY5XzMyXzVfMzkzNjAzMzc5XzBfMF80Ml8wXzMxMV8wXzA=",
+        "iid": "1m368ry",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180602_0j6bhdc71gief633hbgff46a54l31_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m368ry?acm=3.ms.2_1_1m368ry.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393603379_441268968_42_0-t_-lc_32-c1_10057922_nil_nil_1_441268968_28_0&cparam=MTUyODg1NzA5OV8xZDBva255X2EzZThmMjM0ODBmYjk1ZDZiNjhjMzViNDYzZTUzMzY5XzMyXzVfMzkzNjAzMzc5XzBfMF80Ml8wXzMxMV8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180602_0j6bhdc71gief633hbgff46a54l31_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m368ry.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393603379_441268968_42_0-t_-lc_32-c1_10057922_nil_nil_1_441268968_28_0",
+        "type": 2,
+        "title": "2件50元多样情侣装新款袖子格子RE印花夏季韩版短袖T恤男女学生闺蜜装班服BF风港风接头潮",
+        "orgPrice": "￥40.00",
+        "cparam": "MTUyODg1NzA5OV8xZDBva255X2EzZThmMjM0ODBmYjk1ZDZiNjhjMzViNDYzZTUzMzY5XzMyXzVfMzkzNjAzMzc5XzBfMF80Ml8wXzMxMV8wXzA=",
+        "props": [
+          "2件50元多样情侣装新款袖子格子RE印花夏季韩版短袖T恤男女学生闺蜜装班服BF风港风接头潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": "89",
+        "price": "28.00",
+        "cfav": "245",
+        "leftbottom_taglist": [],
+        "shopId": "21689974",
+        "popularStar": null
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m0pzi6?acm=3.ms.0_4_1m0pzi6.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m0pzi6",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180510_16h72a565a0h093b9cl86jc7483f0_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m0pzi6?acm=3.ms.0_4_1m0pzi6.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180510_16h72a565a0h093b9cl86jc7483f0_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232 77 1210",
+        "acm": "3.ms.0_4_1m0pzi6.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "2018夏季新款韩版紫色蓝色打底衫上衣圆领纯棉显瘦百搭体恤学生闺蜜装宽松字母印花短袖t恤女",
+        "orgPrice": "￥57.00",
+        "cparam": null,
+        "props": [
+          "2018夏季新款韩版紫色蓝色打底衫上衣圆领纯棉显瘦百搭体恤学生闺蜜装宽松字母印花短袖t恤女"
+        ],
+        "lefttop_taglist": [],
+        "sale": 2236,
+        "price": "39.90",
+        "cfav": 159,
+        "leftbottom_taglist": [],
+        "shopId": 20431142,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m0mpwg?acm=3.ms.0_4_1m0mpwg.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m0mpwg",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180508_3410e8g29fdk39j4id1hb16da9688_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m0mpwg?acm=3.ms.0_4_1m0mpwg.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180508_3410e8g29fdk39j4id1hb16da9688_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232",
+        "acm": "3.ms.0_4_1m0mpwg.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "2018夏装新款宽松连帽休闲印花T恤裙大码纯棉t恤衫女短袖中长款潮",
+        "orgPrice": "￥98.00",
+        "cparam": null,
+        "props": [
+          "2018夏装新款宽松连帽休闲印花T恤裙大码纯棉t恤衫女短袖中长款潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": 986,
+        "price": "98.00",
+        "cfav": 2,
+        "leftbottom_taglist": [],
+        "shopId": 1302424476,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3c8d8?acm=3.ms.2_1_1m3c8d8.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_395143489_441996124_43_0-t_-lc_32-c1_10057922_nil_nil_1_441996124_30_0&cparam=MTUyODg1NzA5OV8xZDJpbGRtX2MxNWVlMGJlYjZlYTdkYWQzY2I1MTA4NTVmYjBhYTJjXzMyXzZfMzk1MTQzNDg5XzBfMF80M18wXzMxMV8wXzA=",
+        "iid": "1m3c8d8",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180604_322kak56d7kji45k80kg0fb48gk38_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3c8d8?acm=3.ms.2_1_1m3c8d8.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_395143489_441996124_43_0-t_-lc_32-c1_10057922_nil_nil_1_441996124_30_0&cparam=MTUyODg1NzA5OV8xZDJpbGRtX2MxNWVlMGJlYjZlYTdkYWQzY2I1MTA4NTVmYjBhYTJjXzMyXzZfMzk1MTQzNDg5XzBfMF80M18wXzMxMV8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180604_322kak56d7kji45k80kg0fb48gk38_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m3c8d8.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_395143489_441996124_43_0-t_-lc_32-c1_10057922_nil_nil_1_441996124_30_0",
+        "type": 2,
+        "title": "【2件48元】夏季新款个性爱心印花情侣装班服学生简约韩版宽松半袖闺蜜装短袖T恤女男上衣女装",
+        "orgPrice": "￥37.00",
+        "cparam": "MTUyODg1NzA5OV8xZDJpbGRtX2MxNWVlMGJlYjZlYTdkYWQzY2I1MTA4NTVmYjBhYTJjXzMyXzZfMzk1MTQzNDg5XzBfMF80M18wXzMxMV8wXzA=",
+        "props": [
+          "【2件48元】夏季新款个性爱心印花情侣装班服学生简约韩版宽松半袖闺蜜装短袖T恤女男上衣女装"
+        ],
+        "lefttop_taglist": [],
+        "sale": "23",
+        "price": "25.90",
+        "cfav": "91",
+        "leftbottom_taglist": [],
+        "shopId": "21689974",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lrkyek?acm=3.ms.2_1_1lrkyek.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_334189033_0_44_0-t_-lc_32-c1_10057922_nil_nil_0_0_41_0&cparam=MTUyODg1NzA5OV8xYjF4bnV5X2E5ZWFlNDcxMTEyZmRhMDA4N2JjZTkxMmFmZDk1MTcwXzMyXzdfMzM0MTg5MDMzXzBfMF80NF8wXzg5NV8wXzA=",
+        "iid": "1lrkyek",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180221_8bh27f07a3gc1cc1ej5fah9j1geef_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lrkyek?acm=3.ms.2_1_1lrkyek.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_334189033_0_44_0-t_-lc_32-c1_10057922_nil_nil_0_0_41_0&cparam=MTUyODg1NzA5OV8xYjF4bnV5X2E5ZWFlNDcxMTEyZmRhMDA4N2JjZTkxMmFmZDk1MTcwXzMyXzdfMzM0MTg5MDMzXzBfMF80NF8wXzg5NV8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180221_8bh27f07a3gc1cc1ej5fah9j1geef_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1lrkyek.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_334189033_0_44_0-t_-lc_32-c1_10057922_nil_nil_0_0_41_0",
+        "type": 2,
+        "title": "【买一送一】夏季闺蜜装港味复古可爱短袖t恤女新款韩版原宿BF宽松短袖上衣",
+        "orgPrice": "￥49.00",
+        "cparam": "MTUyODg1NzA5OV8xYjF4bnV5X2E5ZWFlNDcxMTEyZmRhMDA4N2JjZTkxMmFmZDk1MTcwXzMyXzdfMzM0MTg5MDMzXzBfMF80NF8wXzg5NV8wXzA=",
+        "props": [
+          "【买一送一】夏季闺蜜装港味复古可爱短袖t恤女新款韩版原宿BF宽松短袖上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": "2788",
+        "price": "49.00",
+        "cfav": "3619",
+        "leftbottom_taglist": [],
+        "shopId": "1302414578",
+        "popularStar": null
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lyvhai?acm=3.ms.0_4_1lyvhai.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1lyvhai",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180424_6fe23fkg2hd87hh75d6712jfaj1d6_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lyvhai?acm=3.ms.0_4_1lyvhai.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180424_6fe23fkg2hd87hh75d6712jfaj1d6_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.0_4_1lyvhai.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "2018新款女装夏季简约宽松套头刺绣字母T恤短袖上衣打底衫闺蜜装",
+        "orgPrice": "￥32.70",
+        "cparam": null,
+        "props": [
+          "2018新款女装夏季简约宽松套头刺绣字母T恤短袖上衣打底衫闺蜜装"
+        ],
+        "lefttop_taglist": [],
+        "sale": 2921,
+        "price": "19.50",
+        "cfav": 345,
+        "leftbottom_taglist": [],
+        "shopId": 1302404400,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1kca9n8?acm=3.ms.0_4_1kca9n8.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1kca9n8",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/170516_7icedik0kd608420363ccb936agd2_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1kca9n8?acm=3.ms.0_4_1kca9n8.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/170516_7icedik0kd608420363ccb936agd2_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "353 1232 62",
+        "acm": "3.ms.0_4_1kca9n8.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "2018夏季新款短袖体恤宽松人物字母印花圆领短袖T恤女",
+        "orgPrice": "￥57.00",
+        "cparam": null,
+        "props": [
+          "2018夏季新款短袖体恤宽松人物字母印花圆领短袖T恤女"
+        ],
+        "lefttop_taglist": [],
+        "sale": 1066,
+        "price": "39.90",
+        "cfav": 1163,
+        "leftbottom_taglist": [],
+        "shopId": 20431142,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m1tu6s?acm=3.ms.2_1_1m1tu6s.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_382511251_435691543_45_0-t_-lc_32-c1_10057922_nil_nil_1_435691543_30_0&cparam=MTUyODg1NzA5OV8xY25oMzZtX2E1OGYyYmVmYTIyOGVhZWVlYWE0NzA3MGI5ODliNzZjXzMyXzhfMzgyNTExMjUxXzBfMF80NV8wXzE2NF8wXzA=",
+        "iid": "1m1tu6s",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180519_34de7j8ai982lcbg7632k4ifak4b7_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m1tu6s?acm=3.ms.2_1_1m1tu6s.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_382511251_435691543_45_0-t_-lc_32-c1_10057922_nil_nil_1_435691543_30_0&cparam=MTUyODg1NzA5OV8xY25oMzZtX2E1OGYyYmVmYTIyOGVhZWVlYWE0NzA3MGI5ODliNzZjXzMyXzhfMzgyNTExMjUxXzBfMF80NV8wXzE2NF8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180519_34de7j8ai982lcbg7632k4ifak4b7_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 352 2 138 172 351",
+        "acm": "3.ms.2_1_1m1tu6s.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_382511251_435691543_45_0-t_-lc_32-c1_10057922_nil_nil_1_435691543_30_0",
+        "type": 2,
+        "title": "韩版宽松百搭学生短袖紫色印花t恤女2018新款原宿夏装上衣ulzzang",
+        "orgPrice": "￥40.00",
+        "cparam": "MTUyODg1NzA5OV8xY25oMzZtX2E1OGYyYmVmYTIyOGVhZWVlYWE0NzA3MGI5ODliNzZjXzMyXzhfMzgyNTExMjUxXzBfMF80NV8wXzE2NF8wXzA=",
+        "props": [
+          "韩版宽松百搭学生短袖紫色印花t恤女2018新款原宿夏装上衣ulzzang"
+        ],
+        "lefttop_taglist": [],
+        "sale": "650",
+        "price": "38.00",
+        "cfav": "2082",
+        "leftbottom_taglist": [],
+        "shopId": "20234338",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m2vwqc?acm=3.ms.2_1_1m2vwqc.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727022_440042695_46_0-t_-lc_32-c1_10057922_nil_nil_1_440042695_39_0&cparam=MTUyODg1NzA5OV8xZDVsY2I4XzQxZjNjMWUxYTM1ZmQwYWVlMmYzMTNmYWJiYTQ3OWFlXzMyXzlfMzk3NzI3MDIyXzBfMF80Nl8wXzU3NV8wXzA=",
+        "iid": "1m2vwqc",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180530_5a49ac41hjh06g557jb6i3e3af54j_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m2vwqc?acm=3.ms.2_1_1m2vwqc.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727022_440042695_46_0-t_-lc_32-c1_10057922_nil_nil_1_440042695_39_0&cparam=MTUyODg1NzA5OV8xZDVsY2I4XzQxZjNjMWUxYTM1ZmQwYWVlMmYzMTNmYWJiYTQ3OWFlXzMyXzlfMzk3NzI3MDIyXzBfMF80Nl8wXzU3NV8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180530_5a49ac41hjh06g557jb6i3e3af54j_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "-1",
+        "acm": "3.ms.2_1_1m2vwqc.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727022_440042695_46_0-t_-lc_32-c1_10057922_nil_nil_1_440042695_39_0",
+        "type": 2,
+        "title": "雪纺白衬衫女长袖2018春装新款防晒衣服中长款ins超火薄款外套夏",
+        "orgPrice": "￥71.29",
+        "cparam": "MTUyODg1NzA5OV8xZDVsY2I4XzQxZjNjMWUxYTM1ZmQwYWVlMmYzMTNmYWJiYTQ3OWFlXzMyXzlfMzk3NzI3MDIyXzBfMF80Nl8wXzU3NV8wXzA=",
+        "props": [
+          "雪纺白衬衫女长袖2018春装新款防晒衣服中长款ins超火薄款外套夏"
+        ],
+        "lefttop_taglist": [],
+        "sale": "19",
+        "price": "49.90",
+        "cfav": "47",
+        "leftbottom_taglist": [],
+        "shopId": "20431142",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3tey6?acm=3.ms.2_1_1m3tey6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_398090850_0_47_0-t_-lc_32-c1_10057922_nil_nil_0_0_30_0&cparam=MTUyODg1NzA5OV8xZDYweHJ3XzIyMGY4Njc1YTNhN2FlMWFjODFjOTBkMmM2YTYwODc0XzMyXzEwXzM5ODA5MDg1MF8wXzBfNDdfMF81Nl8wXzA=",
+        "iid": "1m3tey6",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180610_0ji4d6e3ggb61lk0ii7ih4hb3gi4i_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3tey6?acm=3.ms.2_1_1m3tey6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_398090850_0_47_0-t_-lc_32-c1_10057922_nil_nil_0_0_30_0&cparam=MTUyODg1NzA5OV8xZDYweHJ3XzIyMGY4Njc1YTNhN2FlMWFjODFjOTBkMmM2YTYwODc0XzMyXzEwXzM5ODA5MDg1MF8wXzBfNDdfMF81Nl8wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180610_0ji4d6e3ggb61lk0ii7ih4hb3gi4i_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m3tey6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_398090850_0_47_0-t_-lc_32-c1_10057922_nil_nil_0_0_30_0",
+        "type": 2,
+        "title": "t恤女短袖夏装2018新款韩范白色v领网红衣服同款宽松街拍款上衣潮",
+        "orgPrice": "￥50.00",
+        "cparam": "MTUyODg1NzA5OV8xZDYweHJ3XzIyMGY4Njc1YTNhN2FlMWFjODFjOTBkMmM2YTYwODc0XzMyXzEwXzM5ODA5MDg1MF8wXzBfNDdfMF81Nl8wXzA=",
+        "props": [
+          "t恤女短袖夏装2018新款韩范白色v领网红衣服同款宽松街拍款上衣潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": "3",
+        "price": "35.00",
+        "cfav": "6",
+        "leftbottom_taglist": [],
+        "shopId": "1302423276",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3mdsw?acm=3.ms.2_1_1m3mdsw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_396356987_1241836650_48_0-t_-lc_32-c1_10057922_nil_nil_2_1241836650_50_0&cparam=MTUyODg1NzA5OV8xZDN5bTI2X2Y4ODI1YzA5NjgxMmY5ZmNhY2VjMDUxMmU5OTlmNTU0XzMyXzExXzM5NjM1Njk4N18wXzBfNDhfMF83NjBfMF8w",
+        "iid": "1m3mdsw",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180607_185ibf2c77737e2lkijg917dlcgk5_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3mdsw?acm=3.ms.2_1_1m3mdsw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_396356987_1241836650_48_0-t_-lc_32-c1_10057922_nil_nil_2_1241836650_50_0&cparam=MTUyODg1NzA5OV8xZDN5bTI2X2Y4ODI1YzA5NjgxMmY5ZmNhY2VjMDUxMmU5OTlmNTU0XzMyXzExXzM5NjM1Njk4N18wXzBfNDhfMF83NjBfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180607_185ibf2c77737e2lkijg917dlcgk5_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m3mdsw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_396356987_1241836650_48_0-t_-lc_32-c1_10057922_nil_nil_2_1241836650_50_0",
+        "type": 2,
+        "title": "2018新款夏季短袖T恤女宽松学生百搭韩版套头圆领上衣",
+        "orgPrice": "￥40.00",
+        "cparam": "MTUyODg1NzA5OV8xZDN5bTI2X2Y4ODI1YzA5NjgxMmY5ZmNhY2VjMDUxMmU5OTlmNTU0XzMyXzExXzM5NjM1Njk4N18wXzBfNDhfMF83NjBfMF8w",
+        "props": [
+          "2018新款夏季短袖T恤女宽松学生百搭韩版套头圆领上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": "0",
+        "price": "28.00",
+        "cfav": "0",
+        "leftbottom_taglist": [],
+        "shopId": "1302424053",
+        "popularStar": null
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lyi352?acm=3.ms.0_4_1lyi352.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1lyi352",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180422_2893hdg87ak60595804dlf6l107k7_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lyi352?acm=3.ms.0_4_1lyi352.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180422_2893hdg87ak60595804dlf6l107k7_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232",
+        "acm": "3.ms.0_4_1lyi352.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "夏季女装新款韩版时尚百搭字母印花圆领宽松中袖T恤学生简约短袖打底衫体恤上衣女闺蜜装潮",
+        "orgPrice": "￥57.00",
+        "cparam": null,
+        "props": [
+          "夏季女装新款韩版时尚百搭字母印花圆领宽松中袖T恤学生简约短袖打底衫体恤上衣女闺蜜装潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": 1057,
+        "price": "39.90",
+        "cfav": 52,
+        "leftbottom_taglist": [],
+        "shopId": 20431142,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m0ntaq?acm=3.ms.0_4_1m0ntaq.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1m0ntaq",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180509_6dffclbehblh5h9b0k8geik1ejjl6_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m0ntaq?acm=3.ms.0_4_1m0ntaq.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180509_6dffclbehblh5h9b0k8geik1ejjl6_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232 1525",
+        "acm": "3.ms.0_4_1m0ntaq.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "宽松体恤女短袖韩版t恤简约个性亮丝印花衣服2018夏季新款ins女装大码时尚百搭半袖上衣",
+        "orgPrice": "￥57.00",
+        "cparam": null,
+        "props": [
+          "宽松体恤女短袖韩版t恤简约个性亮丝印花衣服2018夏季新款ins女装大码时尚百搭半袖上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": 2132,
+        "price": "39.90",
+        "cfav": 102,
+        "leftbottom_taglist": [],
+        "shopId": 107350,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m1otcw?acm=3.ms.2_1_1m1otcw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727127_435108291_49_0-t_-lc_32-c1_10057922_nil_nil_1_435108291_35_0&cparam=MTUyODg1NzA5OV8xZDVsY2gyXzJiZTNkMmYzNDJlMjM0MjlmYWNkMzhkODljZDJiYzQyXzMyXzEyXzM5NzcyNzEyN18wXzBfNDlfMF81NzVfMF8w",
+        "iid": "1m1otcw",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180518_7f71b1f5ej24005ldbae8dki5bhcl_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m1otcw?acm=3.ms.2_1_1m1otcw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727127_435108291_49_0-t_-lc_32-c1_10057922_nil_nil_1_435108291_35_0&cparam=MTUyODg1NzA5OV8xZDVsY2gyXzJiZTNkMmYzNDJlMjM0MjlmYWNkMzhkODljZDJiYzQyXzMyXzEyXzM5NzcyNzEyN18wXzBfNDlfMF81NzVfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180518_7f71b1f5ej24005ldbae8dki5bhcl_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232",
+        "acm": "3.ms.2_1_1m1otcw.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397727127_435108291_49_0-t_-lc_32-c1_10057922_nil_nil_1_435108291_35_0",
+        "type": 2,
+        "title": "2018夏季新款韩版粉色印花贴图T恤女短袖宽松chic半袖体恤ins超火的上衣潮",
+        "orgPrice": "￥57.00",
+        "cparam": "MTUyODg1NzA5OV8xZDVsY2gyXzJiZTNkMmYzNDJlMjM0MjlmYWNkMzhkODljZDJiYzQyXzMyXzEyXzM5NzcyNzEyN18wXzBfNDlfMF81NzVfMF8w",
+        "props": [
+          "2018夏季新款韩版粉色印花贴图T恤女短袖宽松chic半袖体恤ins超火的上衣潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": "136",
+        "price": "39.90",
+        "cfav": "209",
+        "leftbottom_taglist": [],
+        "shopId": "20431142",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3xtyy?acm=3.ms.2_1_1m3xtyy.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397432827_2006369_50_0-t_-lc_32-c1_10057922_nil_nil_0_2006369_30_0&cparam=MTUyODg1NzA5OV8xZDU4cWIyX2NhMDY1NDg2MzEyMGQ5NTJhN2U2YjNiODNmZTYxODA3XzMyXzEzXzM5NzQzMjgyN18wXzIwMDYzNjlfNTBfMF82ODhfMF8w",
+        "iid": "1m3xtyy",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180611_77141k4b66e98fi3af4a62e51el79_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3xtyy?acm=3.ms.2_1_1m3xtyy.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397432827_2006369_50_0-t_-lc_32-c1_10057922_nil_nil_0_2006369_30_0&cparam=MTUyODg1NzA5OV8xZDU4cWIyX2NhMDY1NDg2MzEyMGQ5NTJhN2U2YjNiODNmZTYxODA3XzMyXzEzXzM5NzQzMjgyN18wXzIwMDYzNjlfNTBfMF82ODhfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180611_77141k4b66e98fi3af4a62e51el79_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525",
+        "acm": "3.ms.2_1_1m3xtyy.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_397432827_2006369_50_0-t_-lc_32-c1_10057922_nil_nil_0_2006369_30_0",
+        "type": 2,
+        "title": "【韩版、新款】夏季蕾丝中长款裙子女半身裙网纱裙高腰黑色显瘦百褶裙短裙a字裙百搭伞裙学生大码",
+        "orgPrice": "￥42.72",
+        "cparam": "MTUyODg1NzA5OV8xZDU4cWIyX2NhMDY1NDg2MzEyMGQ5NTJhN2U2YjNiODNmZTYxODA3XzMyXzEzXzM5NzQzMjgyN18wXzIwMDYzNjlfNTBfMF82ODhfMF8w",
+        "props": [
+          "【韩版、新款】夏季蕾丝中长款裙子女半身裙网纱裙高腰黑色显瘦百褶裙短裙a字裙百搭伞裙学生大码"
+        ],
+        "lefttop_taglist": [],
+        "sale": "39",
+        "price": "29.90",
+        "cfav": "108",
+        "leftbottom_taglist": [],
+        "shopId": "107562",
+        "popularStar": null
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1kn9lvm?acm=3.ms.0_4_1kn9lvm.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1kn9lvm",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/171012_4c9d3idj6880f200bdg591k05da2e_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1kn9lvm?acm=3.ms.0_4_1kn9lvm.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/171012_4c9d3idj6880f200bdg591k05da2e_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "2 1525 138 172",
+        "acm": "3.ms.0_4_1kn9lvm.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "【两件仅需34元】纯色女夏季新款短袖T恤修身白色百搭女装打底衫女",
+        "orgPrice": "￥27.80",
+        "cparam": null,
+        "props": [
+          "【两件仅需34元】纯色女夏季新款短袖T恤修身白色百搭女装打底衫女"
+        ],
+        "lefttop_taglist": [],
+        "sale": 2492,
+        "price": "19.46",
+        "cfav": 276,
+        "leftbottom_taglist": [],
+        "shopId": 109458,
+        "popularStar": 0
+      },
+      {
+        "itemType": 10,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1ke670y?acm=3.ms.0_4_1ke670y.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "iid": "1ke670y",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180311_0bb4ag4i53e0ka80j29f2gj22hglb_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1ke670y?acm=3.ms.0_4_1ke670y.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180311_0bb4ag4i53e0ka80j29f2gj22hglb_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1232 1711",
+        "acm": "3.ms.0_4_1ke670y.0.13384-69004.ni0a5qUOAAg8z.sd_117-t_-lc_16",
+        "type": 2,
+        "title": "2018夏季新款韩版黑色性感露肩雪纺连衣裙女装显瘦漏肩网纱气质吊带裙时尚裙子潮",
+        "orgPrice": "￥112.00",
+        "cparam": null,
+        "props": [
+          "2018夏季新款韩版黑色性感露肩雪纺连衣裙女装显瘦漏肩网纱气质吊带裙时尚裙子潮"
+        ],
+        "lefttop_taglist": [],
+        "sale": 1478,
+        "price": "79.00",
+        "cfav": 123,
+        "leftbottom_taglist": [],
+        "shopId": 111081,
+        "popularStar": 0
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m3k0ga?acm=3.ms.2_1_1m3k0ga.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394945699_442903379_51_0-t_-lc_32-c1_10057922_nil_nil_1_442903379_32_0&cparam=MTUyODg1NzA5OV8xZDJhNDVhXzFmMWMzOGUyOWEzOGJjZTUxNDk1NDcwYzMwYWIyNzIxXzMyXzE0XzM5NDk0NTY5OV8wXzBfNTFfMF8yMThfMF8w",
+        "iid": "1m3k0ga",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180607_43e61bf1ehddj2254k78jgg8a9bij_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m3k0ga?acm=3.ms.2_1_1m3k0ga.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394945699_442903379_51_0-t_-lc_32-c1_10057922_nil_nil_1_442903379_32_0&cparam=MTUyODg1NzA5OV8xZDJhNDVhXzFmMWMzOGUyOWEzOGJjZTUxNDk1NDcwYzMwYWIyNzIxXzMyXzE0XzM5NDk0NTY5OV8wXzBfNTFfMF8yMThfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180607_43e61bf1ehddj2254k78jgg8a9bij_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 352 351",
+        "acm": "3.ms.2_1_1m3k0ga.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_394945699_442903379_51_0-t_-lc_32-c1_10057922_nil_nil_1_442903379_32_0",
+        "type": 2,
+        "title": "大码200斤短袖棉质t恤女夏装中长新款女装宽松胖mm显瘦韩版刺绣花朵半袖体恤女上衣",
+        "orgPrice": "￥45.00",
+        "cparam": "MTUyODg1NzA5OV8xZDJhNDVhXzFmMWMzOGUyOWEzOGJjZTUxNDk1NDcwYzMwYWIyNzIxXzMyXzE0XzM5NDk0NTY5OV8wXzBfNTFfMF8yMThfMF8w",
+        "props": [
+          "大码200斤短袖棉质t恤女夏装中长新款女装宽松胖mm显瘦韩版刺绣花朵半袖体恤女上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": "17",
+        "price": "45.00",
+        "cfav": "16",
+        "leftbottom_taglist": [],
+        "shopId": "1302415013",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1ltoj0m?acm=3.ms.2_1_1ltoj0m.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_373511074_1106111792_52_0-t_-lc_32-c1_10057922_nil_nil_2_1106111792_35_0&cparam=MTUyODg1NzA5OV8xY2NyYTBzX2QzYWI1NmQyNzdiYjU4NDc1MmQwZjQ2NmZhYWY1OTlkXzMyXzE1XzM3MzUxMTA3NF8wXzBfNTJfMF81NzVfMF8w",
+        "iid": "1ltoj0m",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180317_01i5g550ife1h6j96gch203290b16_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1ltoj0m?acm=3.ms.2_1_1ltoj0m.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_373511074_1106111792_52_0-t_-lc_32-c1_10057922_nil_nil_2_1106111792_35_0&cparam=MTUyODg1NzA5OV8xY2NyYTBzX2QzYWI1NmQyNzdiYjU4NDc1MmQwZjQ2NmZhYWY1OTlkXzMyXzE1XzM3MzUxMTA3NF8wXzBfNTJfMF81NzVfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/c45406/180317_01i5g550ife1h6j96gch203290b16_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 353 1232",
+        "acm": "3.ms.2_1_1ltoj0m.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_373511074_1106111792_52_0-t_-lc_32-c1_10057922_nil_nil_2_1106111792_35_0",
+        "type": 2,
+        "title": "2018新款早春款韩版百搭宽松体恤刺绣字母圆领短袖T恤女学生上衣服洋气小衫",
+        "orgPrice": "￥57.00",
+        "cparam": "MTUyODg1NzA5OV8xY2NyYTBzX2QzYWI1NmQyNzdiYjU4NDc1MmQwZjQ2NmZhYWY1OTlkXzMyXzE1XzM3MzUxMTA3NF8wXzBfNTJfMF81NzVfMF8w",
+        "props": [
+          "2018新款早春款韩版百搭宽松体恤刺绣字母圆领短袖T恤女学生上衣服洋气小衫"
+        ],
+        "lefttop_taglist": [],
+        "sale": "6557",
+        "price": "39.90",
+        "cfav": "8472",
+        "leftbottom_taglist": [],
+        "shopId": "20431142",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1lsc0b6?acm=3.ms.2_1_1lsc0b6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393911244_2003380_53_0-t_-lc_32-c1_10057922_nil_nil_0_2003380_33_0&cparam=MTUyODg1NzA5OV8xZDExcnJrXzQ0Y2QxYmU3YjczYmQ3N2Q2MjBiMmM1ODE2MzM0NmMxXzMyXzE2XzM5MzkxMTI0NF8wXzIwMDMzODBfNTNfMF82NjhfMF8w",
+        "iid": "1lsc0b6",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180605_89b2408gk7i5e905ikfkkc37024ba_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1lsc0b6?acm=3.ms.2_1_1lsc0b6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393911244_2003380_53_0-t_-lc_32-c1_10057922_nil_nil_0_2003380_33_0&cparam=MTUyODg1NzA5OV8xZDExcnJrXzQ0Y2QxYmU3YjczYmQ3N2Q2MjBiMmM1ODE2MzM0NmMxXzMyXzE2XzM5MzkxMTI0NF8wXzIwMDMzODBfNTNfMF82NjhfMF8w",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180605_89b2408gk7i5e905ikfkkc37024ba_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 352 82 61 351",
+        "acm": "3.ms.2_1_1lsc0b6.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393911244_2003380_53_0-t_-lc_32-c1_10057922_nil_nil_0_2003380_33_0",
+        "type": 2,
+        "title": "凡兔女装2018夏新款原宿紫色t恤女圆领百搭宽松圆领学生体恤短袖背后卡通印花纯棉ins上衣",
+        "orgPrice": "￥112.90",
+        "cparam": "MTUyODg1NzA5OV8xZDExcnJrXzQ0Y2QxYmU3YjczYmQ3N2Q2MjBiMmM1ODE2MzM0NmMxXzMyXzE2XzM5MzkxMTI0NF8wXzIwMDMzODBfNTNfMF82NjhfMF8w",
+        "props": [
+          "凡兔女装2018夏新款原宿紫色t恤女圆领百搭宽松圆领学生体恤短袖背后卡通印花纯棉ins上衣"
+        ],
+        "lefttop_taglist": [],
+        "sale": "325",
+        "price": "69.00",
+        "cfav": "878",
+        "leftbottom_taglist": [],
+        "shopId": "1300642883",
+        "popularStar": null
+      },
+      {
+        "itemType": 7,
+        "ptpC": "_mb_mls_10057922_wap-index_noab-noab",
+        "titleTags": null,
+        "clientUrl": "http://item.meilishuo.com/h5/detail/1m31ew0?acm=3.ms.2_1_1m31ew0.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393695147_2003147_54_0-t_-lc_32-c1_10057922_nil_nil_0_2003147_20_0&cparam=MTUyODg1NzA5OV8xZDBzaWE2XzNkMmE2NWY3ZTQxYjNkODM1MGNkMjYyNTMzODY3MDY2XzMyXzE3XzM5MzY5NTE0N18wXzIwMDMxNDdfNTRfMF8zM18wXzA=",
+        "iid": "1m31ew0",
+        "showLarge": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180604_5k682kjl9ka70d4l0fik7b0a501a4_640x960.jpg_560x999.jpg",
+          "w": 560,
+          "h": 840
+        },
+        "link": "http://item.meilishuo.com/h5/detail/1m31ew0?acm=3.ms.2_1_1m31ew0.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393695147_2003147_54_0-t_-lc_32-c1_10057922_nil_nil_0_2003147_20_0&cparam=MTUyODg1NzA5OV8xZDBzaWE2XzNkMmE2NWY3ZTQxYjNkODM1MGNkMjYyNTMzODY3MDY2XzMyXzE3XzM5MzY5NTE0N18wXzIwMDMxNDdfNTRfMF8zM18wXzA=",
+        "show": {
+          "img": "http://s3.mogucdn.com/mlcdn/17f85e/180604_5k682kjl9ka70d4l0fik7b0a501a4_640x960.jpg_320x999.jpg",
+          "w": 320,
+          "h": 416
+        },
+        "itemMarks": "1525 352 351",
+        "acm": "3.ms.2_1_1m31ew0.0.70867-69004.ni0a5qUOAAg8z.sd_117-c_2_32_393695147_2003147_54_0-t_-lc_32-c1_10057922_nil_nil_0_2003147_20_0",
+        "type": 2,
+        "title": "2018新款短袖T恤女怪味少女可爱hiphop上衣紫色ins超火的同款t恤女印花字母T女装",
+        "orgPrice": "￥108.00",
+        "cparam": "MTUyODg1NzA5OV8xZDBzaWE2XzNkMmE2NWY3ZTQxYjNkODM1MGNkMjYyNTMzODY3MDY2XzMyXzE3XzM5MzY5NTE0N18wXzIwMDMxNDdfNTRfMF8zM18wXzA=",
+        "props": [
+          "2018新款短袖T恤女怪味少女可爱hiphop上衣紫色ins超火的同款t恤女印花字母T女装"
+        ],
+        "lefttop_taglist": [],
+        "sale": "203",
+        "price": "49.00",
+        "cfav": "672",
+        "leftbottom_taglist": [],
+        "shopId": "20820790",
+        "popularStar": null
+      }
+    ],
+    "title": "美丽说wap首页",
+    "isEnd": false,
+    "ptpPartC": "_mb_mls_10057922_wap-index_noab-noab",
+    "cpc_offset": 0
+  }
+}
