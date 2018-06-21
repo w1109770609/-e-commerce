@@ -1,7 +1,7 @@
 <template>
    <div class="login">
      <header>
-       <span>登录717</span>
+       <span></span><span>登录717</span><b @click="goToRegister">去注册</b>
      </header>
     <div class="form">
       <p><span class="iconfont icon-fangdajing"></span><input type="text" v-model="username" placeholder="请输入手机号"></p>
@@ -20,6 +20,9 @@ export default {
     }
   },
   methods:{
+    goToRegister(){
+      this.$router.push('/register')
+    },
     goToLogin(){
       let phoneReg = /^1[3578]\d{9}$/;
       if(!phoneReg.test(this.username)){
@@ -55,10 +58,14 @@ export default {
     height:1.4rem;
     background:#F4F4F4;
     padding: 0 .2rem;
-    text-align: center;
-    line-height: 1.4rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     span{
       font-size: .4rem;
+    }
+    b{
+      color:#FB4141;
     }
   }
   .form{

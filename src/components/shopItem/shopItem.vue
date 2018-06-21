@@ -5,7 +5,7 @@
       </dt>
       <dd>
         <p class="tits">{{item.title}}</p>
-        <p>
+        <p @click.stop="addshopCar">
           <span>{{item.price}}</span>
           <i class="iconfont icon-shopcar"></i>
         </p>
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import {getCookie} from '@/until/cookie.js'
 export default {
   props:['item'],
   data() {
@@ -22,8 +23,25 @@ export default {
     }
   },
   methods: {
+    addshopCar(){
+      this.$http.post('/api/shopcar',{
+        token:getCookie('keyword'),
+        item:this.item
+      }).then(res=>{
+        if(res.code===1){
+          this.$toast.$emit('activeShow','添加成功')
+        }else{
+          console.log('写入失败');
+          this.$router.push({
+            name:'login',
+            query:{
+              from:'shopcar'
+            }
+          })
+        }
+      })
+    },
     shopItem(){
-      console.log(this.item)
       this.$router.push({
         name:'detail',
         query:{
@@ -62,7 +80,12 @@ export default {
         line-height: 2;
         justify-content: space-between;
         span{
-          color:#ff3333
+          color:#ff3333;
+        }
+        i{
+          text-align:center;
+          width:30px;
+
         }
       }
     }

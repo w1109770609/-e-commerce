@@ -30,6 +30,7 @@
           </dl>
         </div>
         <div class="vertical-ban" ref="ban">
+          <Toast></Toast>
             <div class="tit">
               商城动态
             </div>

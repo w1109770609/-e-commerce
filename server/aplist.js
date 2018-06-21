@@ -31,7 +31,7 @@ app.get('/search',(req,res)=>{
 })
 
 app.get('/list', (req, res) => {
-  let result = fs.readFileSync('./list.json')
+  let result = fs.readFileSync('./list.json','utf-8')
   res.end(result)
 })
 app.post('/api/register',(req,res)=>{
@@ -83,6 +83,8 @@ app.post('/api/login',(req,res)=>{
 })
 
 app.post('/api/shoplist',(req,res)=>{
+  let cons = path.resolve('addshop');
+  let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
   jwt.verify(req.body.token, '1601E', (err,decode)=>{
     if(err){
       res.json({
@@ -91,13 +93,125 @@ app.post('/api/shoplist',(req,res)=>{
       })
     }else{
       res.json({
-        code:1,
-        msg:'success'
+        code: 1,
+        msg: txt[decode.username]
       })
     }
   })
 })
 
+app.post('/api/shopcar',(req,res)=>{
+  jwt.verify(req.body.token,'1601E',(err,decode)=>{
+    if(err){
+      res.json({
+        code:0,
+        msg:'登陆超时，请重新登陆'
+      })
+    }else{
+      let cons = path.resolve('addshop');
+      let txt = JSON.parse(fs.readFileSync(cons +'/addshop.json','utf-8'))
+      if(txt[decode.username]){
+        let flag = false;
+        txt[decode.username].forEach(item => {
+          if(item.title == req.body.item.title){
+            ++item.count;
+            flag=true;
+          }
+        });
+        if(!flag){
+          let o ={
+            ...req.body.item,
+            count:1,
+            flag:false
+          }
+          txt[decode.username].push(o)
+        }
+      }else{
+        txt[decode.username] = [{count: 1,flag:false,...req.body.item}]
+      }
+      fs.writeFile(cons + '/addshop.json',JSON.stringify(txt),(err)=>{
+        if(err){
+          res.json({
+            code:0,
+            msg:'写入失败'
+          })
+        }else{
+          res.json({
+            code:1,
+            msg:'success'
+          })
+        }
+      })
+    }
+  })
+})
+app.post('/api/add',(req,res)=>{
+  let cons = path.resolve('addshop');
+  let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
+  jwt.verify(req.body.token, '1601E', (err, decode) => {
+    if(err){
+      res.json({
+        code:0,
+        msg:'过期了'
+      })
+      return;
+    }
+    let list = txt[decode.username].map(item => {
+      if (item.title === req.body.title) {
+        item.count += req.body.num
+        if (item.count <= 0 && req.body.num==-1){
+          item.count = 1;
+          return;
+        }
+      }
+      return item;
+    })
+    decode[req.body.username] = list
+    fs.writeFile(cons + '/addshop.json', JSON.stringify(txt), (err) => {
+      if (err) {
+        res.json({
+          code: 0,
+          msg: '写入失败'
+        })
+      } else {
+        res.json({
+          code: 1,
+          msg: 'success'
+        })
+      }
+    })
+  })
+
+})
+
+app.post('/api/delete', (req, res) => {
+  let cons = path.resolve('addshop');
+  let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
+  jwt.verify(req.body.token, '1601E', (err, decode) => {
+    if (err) {
+      res.json({
+        code: 0,
+        msg: '过期了'
+      })
+      return;
+    }
+    txt[decode.username] = req.body.content
+    fs.writeFile(cons + '/addshop.json', JSON.stringify(txt), (err) => {
+      if (err) {
+        res.json({
+          code: 0,
+          msg: '写入失败'
+        })
+      } else {
+        res.json({
+          code: 1,
+          msg: 'success'
+        })
+      }
+    })
+
+  })
+})
 app.listen('3000',()=>{
   console.log('profect!')
 })
