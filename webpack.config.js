@@ -1,12 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
-
+console.log(process.env.NODE_ENV)
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'build.js',
+    chunkFilename: '[name].bundle.js',
   },
   module: {
     rules: [
@@ -83,12 +84,12 @@ module.exports = {
   },
   devtool: '#eval-source-map',
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"development"'
-      }
-    })
-  ],
+    // new webpack.DefinePlugin({
+    //   'process.env': {
+    //     NODE_ENV: '"development"'
+    //   }
+    // })
+  ]
 };
 
 if (process.env.NODE_ENV === 'production') {

@@ -31,6 +31,7 @@
         </div>
         <div class="vertical-ban" ref="ban">
           <Toast></Toast>
+          <Dialog></Dialog>
             <div class="tit">
               商城动态
             </div>
@@ -65,13 +66,13 @@
   </div>
 </template>
 <script>
-import Swiper from 'swiper'
+// import Swiper from 'swiper'
 import 'swiper/dist/css/swiper.css'
 import jsonp from '@/until/jsonp.js'
 import SwiperItem from '@/components/swiperItems/swiperItems'
 import ShopItem from '@/components/shopItem/shopItem'
 import { mapActions,mapState } from 'vuex';
-import BScroll from 'better-scroll'
+// import BScroll from 'better-scroll'
 export default {
   data() {
     return {
@@ -97,15 +98,15 @@ export default {
     //   this.shoplist = res.data.list
     //   console.log(this.shoplist)
     // })
-    new Swiper(this.$refs.swipers,{
-      loop:true,
-      autoplay:true,
-    })
-    new Swiper(this.$refs.txt_swiper,{
-      loop:true,
-      autoplay:true,
-      direction:'vertical'
-    })
+    // new Swiper(this.$refs.swipers,{
+    //   loop:true,
+    //   autoplay:true,
+    // })
+    // new Swiper(this.$refs.txt_swiper,{
+    //   loop:true,
+    //   autoplay:true,
+    //   direction:'vertical'
+    // })
     this.getList()
   },
   methods:{

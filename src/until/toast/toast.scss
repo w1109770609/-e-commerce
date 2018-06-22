@@ -12,7 +12,6 @@
     margin-top:3px;
   }
 }
-
 .toast-enter{
   opacity: 0;
 }
@@ -20,7 +19,7 @@
   opacity: 1;
 }
 .toast-enter-active {
-  transition: opacity 1s;
+  transition: opacity 1s linear;
 }
 .toast-leave{
   opacity: 1;
@@ -29,5 +28,5 @@
   opacity: 0;
 }
 .toast-leave-active {
-  transition: opacity 1s;
+  transition: opacity 1s linear;
 }

@@ -12,10 +12,21 @@ app.all('*',(req,res,next)=>{
   })
   next()
 })
+const ejs = require('ejs')
+app.engine('html',ejs.__express)
+app.use(express.static(path.resolve(process.cwd()+'/dist')))
+app.set('view engine','html')
 
-let getData = require('./queryApi')
+app.get('/index/',(req,res)=>{
+  res.render('index',{
+    title:'HTML'
+  })
+})
+
+
 //https://m.gome.com.cn/index.php?ctl=goods_class&act=ajaxGetClassList&cid=17951828
 app.get('/api/guomei',(req,res)=>{
+  let getData = require('./queryApi')
   getData(`/index.php?ctl=goods_class&act=ajaxGetClassList&cid=${req.query.id}`).then(result=>{
     res.end(result)
   })

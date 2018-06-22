@@ -4,17 +4,17 @@
 
 <script>
 export default {
+  props:['timeout'],
   data() {
     return {
-      flag:false,
-      timeout:2000
+      flag:false
     }
   },
   mounted(){
     this.flag = true
     setTimeout(() => {
       this.flag = false
-    }, this.timeout);
+    }, this.timeout.timeout);
   }
 }
 </script>

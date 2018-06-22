@@ -2,6 +2,7 @@ import axios from 'axios'
 let httpInstance = axios.create({
   baseURL: 'http://localhost:3000'
 });
+console.log(process.env.NODE_ENV)
 httpInstance.interceptors.request.use((config)=>{
   return config
 },(err)=>{

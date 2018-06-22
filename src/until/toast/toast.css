@@ -23,7 +23,7 @@
 }
 
 .toast-enter-active {
-  transition: opacity 1s;
+  transition: opacity 1s linear;
 }
 
 .toast-leave {
@@ -35,5 +35,5 @@
 }
 
 .toast-leave-active {
-  transition: opacity 1s;
+  transition: opacity 1s linear;
 }

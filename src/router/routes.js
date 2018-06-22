@@ -1,12 +1,22 @@
 import Home from '@/views/home/home.vue'
 import Index from '@/views/index/index.vue'
-import Classify from '@/views/classify/classify.vue'
-import Shopcar from '@/views/shopcar/shopcar.vue'
+// import Classify from '@/views/classify/classify.vue'
+const Classify = () => import(/* webpackChunkName: "Classify" */ '@/views/classify/classify.vue')
+// import Shopcar from '@/views/shopcar/shopcar.vue'
+const Shopcar = () => import(/* webpackChunkName: "Shopcar" */ '@/views/shopcar/shopcar.vue')
 import Mine from '@/views/mine/mine.vue'
 import Search from '@/views/search/search.vue'
 import Detail from '@/views/detail/detail.vue'
 import Login from '@/views/login/login.vue'
 import Register from '@/views/register/register.vue'
+import Myorder from '@/views/myorder/myorder.vue'
+import Allorder from '@/views/allorder/allorder.vue'
+import Obligation from '@/views/obligation/obligation.vue'
+import Ungoods from '@/views/ungoods/ungoods.vue'
+import Goods from '@/views/goods/goods.vue'
+import Aftersale from '@/views/aftersale/aftersale.vue'
+import ResultOrder from '@/views/resultOrder/resultOrder.vue'
+
 let routes = [
   {
     path: '/',
@@ -59,5 +69,47 @@ let routes = [
     path: '/register',
     component: Register,
   },
+  {
+    name: 'resultOrder',
+    path: '/resultOrder',
+    component: ResultOrder,
+  },
+  {
+    name: 'myorder',
+    path: '/myorder',
+    component: Myorder,
+    children:[
+      {
+        name:'allorder',
+        path:'allorder',
+        component: Allorder
+      },
+      {
+        name: 'obligation',
+        path: 'obligation',
+        component: Obligation
+      },
+      {
+        name: 'ungoods',
+        path: 'ungoods',
+        component: Ungoods
+      },
+      {
+        name: 'ungoods',
+        path: 'ungoods',
+        component: Ungoods
+      },
+      {
+        name: 'goods',
+        path: 'goods',
+        component: Goods
+      },
+      {
+        name: 'aftersale',
+        path: 'aftersale',
+        component: Aftersale
+      }
+    ]
+  }
 ];
 export default routes;

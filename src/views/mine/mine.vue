@@ -26,7 +26,7 @@
             <i class="iconfont icon-shouhou"></i>
             <span>售后</span>
           </li>
-          <li>
+          <li @click="goMyOrder">
             <i class="iconfont icon-dingdan"></i>
             <span>我的订单</span>
           </li>
@@ -47,8 +47,12 @@ export default {
 
     }
   },
-  components: {
-
+  methods:{
+    goMyOrder(){
+      this.$router.push({
+        name:'myorder'
+      })
+    }
   }
 }
 </script>

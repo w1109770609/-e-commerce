@@ -11,10 +11,10 @@
       <div class="left">全选:<span @click="selectedAll" :class="flag?'iconfont icon-checked':'iconfont icon-unchecked'"></span></div>
       <div class="right" v-show="footerShow">
           <div class="total">
-              <span>总计:${{$store.state.totalSum}}.00</span>
+              <span>总计:${{$store.state.totalSum}}</span>
               <span>(含运费)</span>
           </div>
-          <div class="submit">
+          <div class="submit" @click="upOrder">
               提交订单
           </div>
       </div>
@@ -40,6 +40,19 @@ export default {
   },
   components:{ComputedShops},
   methods:{
+    upOrder(){
+      this.$http.post('/api/shoplist',{
+        token:getCookie('keyword')
+      }).then(res=>{
+        this.$router.push({
+          name:'resultOrder',
+          params:{
+            cons:res.msg
+          }
+        })
+      })
+
+    },
     writes(){
       if(this.msg == '编辑'){
         this.msg = '完成'
@@ -59,6 +72,9 @@ export default {
           content:this.$store.state.computedL
         }).then(res=>{
           this.$toast.$emit('activeShow','删除成功')
+          if(res.code===1){
+            this.$store.dispatch('fetch_list')
+          }
         })
       }
     }
