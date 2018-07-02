@@ -1,6 +1,7 @@
 <template>
   <header>
-    <router-link tag="span" to="/index/mine">回退</router-link><span><slot></slot></span><span class="iconfont icon-msg"></span>
+    <span @click="gohistory">回退</span>
+<span><slot></slot></span><span class="iconfont icon-msg"></span>
   </header>
 </template>
 
@@ -11,8 +12,10 @@ export default {
 
     }
   },
-  components: {
-
+  methods: {
+    gohistory(){
+      this.$router.history.go(-1)
+    }
   }
 }
 </script>

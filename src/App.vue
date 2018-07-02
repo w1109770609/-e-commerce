@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-     <Dialog >
+      <Toast></Toast>
+      <Dialog >
       <h1>提示</h1>
       <p>您还未填写收货地址信息,请先添加地址</p>
     </Dialog>

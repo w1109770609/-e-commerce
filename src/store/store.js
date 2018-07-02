@@ -7,14 +7,14 @@ import router from '../router/index'
 let store = new Vuex.Store({
   state:{
     getlist:[],
-    listCache:{
-
-    },
+    listCache:{},
     computedL:[],
     totalObj:{},
     totalSum:0,
     arrInd:[],
-    arr:[]
+    arr:[],
+    address:[],
+    address_l:{}
   },
   mutations:{
     fetch_list(state,payload){
@@ -44,20 +44,14 @@ let store = new Vuex.Store({
             }
           }
         })
-        state.arrInd = arr
+        state.arrInd = arr.sort()
         let totalSum = 0;
         Object.values(state.totalObj).forEach(item => {
           totalSum += item;
         });
         state.totalSum = totalSum.toFixed(2)
     },
-    // totalSeleted(state,payload){
-    //   if(payload.o.hasOwnProperty(payload.title)){
-    //     state.arr.push(payload.o)
-    //   }
-    //   console.log(state.arr)
-    // },
-    deleted(state,payload){
+    deleted(state){
       let computedL = [...state.computedL]
       let ind = state.arrInd.map((item, index) => {
         return item - index
@@ -68,7 +62,13 @@ let store = new Vuex.Store({
         computedL.splice(item,1)
       })
       state.computedL = computedL;
-    }
+    },
+    address(state,payload){
+      state.address = payload
+    },
+    last_address(state,payload) {
+      state.address_l = payload
+    },
   },
   actions:{
     getListCache({state,commit},payload){
@@ -99,6 +99,25 @@ let store = new Vuex.Store({
           commit('fetchL',res.msg)
         }
       })
+    },
+    fetch_address({commit}){
+       http.post("/api/address", {
+         token: getCookie("keyword")
+       }).then(res => {
+         if (res.code == 0) {
+           this.$toast.$emit('activeShow', res.msg)
+           setTimeout(() => {
+             router.push({
+               name: 'login',
+               query: {
+                 from: 'address'
+               }
+             })
+           }, 2000);
+         } else {
+           commit('address',res.msg)
+         }
+       });
     }
   }
 })

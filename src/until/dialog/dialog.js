@@ -34,7 +34,7 @@ let dialog = {
         statusL(attr){
           this.flag = false;
           if(attr=='add'){
-            this.$emit('sureF')
+            this.dialog.$emit('through')
           }
         }
       }

@@ -1,6 +1,6 @@
 <template>
   <div class="mine">
-      <header>我的717商城</header>
+      <header @click="out">我的717商城</header>
       <div class="tit">
         <img src="../../../static/mine/1.gif" alt="">
       </div>
@@ -51,6 +51,11 @@ export default {
     goMyOrder(){
       this.$router.push({
         name:'myorder'
+      })
+    },
+    out(){
+      this.$router.push({
+        name:'login'
       })
     }
   }

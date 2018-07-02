@@ -119,9 +119,11 @@ export default {
         width:33%;
         padding: 5px;
         dl{
+          width:100%;
           background: #eee;
           text-align: center;
           dt {
+            width:100%;
             padding: 0.1rem 0;
             img {
               width: 0.9rem;

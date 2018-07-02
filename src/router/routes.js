@@ -16,6 +16,9 @@ import Ungoods from '@/views/ungoods/ungoods.vue'
 import Goods from '@/views/goods/goods.vue'
 import Aftersale from '@/views/aftersale/aftersale.vue'
 import ResultOrder from '@/views/resultOrder/resultOrder.vue'
+import PaySuccess from '@/views/paysuccess/paysuccess.vue'
+import Addaddr from '@/views/addaddr/addaddr.vue'
+import Address from '@/views/address/address.vue'
 
 let routes = [
   {
@@ -73,6 +76,21 @@ let routes = [
     name: 'resultOrder',
     path: '/resultOrder',
     component: ResultOrder,
+  },
+  {
+    name: 'paysuccess',
+    path: '/paysuccess',
+    component: PaySuccess,
+  },
+  {
+    name: 'addaddr',
+    path: '/addaddr',
+    component: Addaddr,
+  },
+  {
+    name: 'address',
+    path: '/address',
+    component: Address,
   },
   {
     name: 'myorder',

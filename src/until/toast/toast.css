@@ -1,5 +1,6 @@
 .toast {
   position: fixed;
+  z-index: 66;
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);
@@ -7,7 +8,7 @@
 
 .toast .toastItem {
   color: #fff;
-  font-size: 0.4rem;
+  font-size: 0.3rem;
   padding: .1rem .8rem;
   border-radius: .8rem;
   background: rgba(0, 0, 0, 0.7);

@@ -1,8 +1,10 @@
 import axios from 'axios'
-let httpInstance = axios.create({
-  baseURL: 'http://localhost:3000'
-});
+let onlineUrl = "http://192.168.191.1:3000"
+let testUrl = 'http://localhost:3000'
 console.log(process.env.NODE_ENV)
+let httpInstance = axios.create({
+  baseURL: process.env.NODE_ENV == 'production' ? onlineUrl : testUrl
+});
 httpInstance.interceptors.request.use((config)=>{
   return config
 },(err)=>{

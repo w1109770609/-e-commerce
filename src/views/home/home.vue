@@ -30,7 +30,6 @@
           </dl>
         </div>
         <div class="vertical-ban" ref="ban">
-          <Toast></Toast>
           <Dialog></Dialog>
             <div class="tit">
               商城动态
@@ -66,8 +65,8 @@
   </div>
 </template>
 <script>
-// import Swiper from 'swiper'
-import 'swiper/dist/css/swiper.css'
+import Swiper from 'swiper/js/swiper.js'
+import 'swiper/css/swiper.css'
 import jsonp from '@/until/jsonp.js'
 import SwiperItem from '@/components/swiperItems/swiperItems'
 import ShopItem from '@/components/shopItem/shopItem'
@@ -98,15 +97,15 @@ export default {
     //   this.shoplist = res.data.list
     //   console.log(this.shoplist)
     // })
-    // new Swiper(this.$refs.swipers,{
-    //   loop:true,
-    //   autoplay:true,
-    // })
-    // new Swiper(this.$refs.txt_swiper,{
-    //   loop:true,
-    //   autoplay:true,
-    //   direction:'vertical'
-    // })
+    new Swiper(this.$refs.swipers,{
+      loop:true,
+      autoplay:true,
+    })
+    new Swiper(this.$refs.txt_swiper,{
+      loop:true,
+      autoplay:true,
+      direction:'vertical'
+    })
     this.getList()
   },
   methods:{
@@ -189,6 +188,7 @@ export default {
       text-align: center;
       dt{
         width:100%;;
+        height:1rem;
         img{
           width:1rem;
           height:1rem;

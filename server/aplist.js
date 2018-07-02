@@ -14,17 +14,22 @@ app.all('*',(req,res,next)=>{
 })
 const ejs = require('ejs')
 app.engine('html',ejs.__express)
-app.use(express.static(path.resolve(process.cwd()+'/dist')))
+app.use(express.static(path.resolve(process.cwd())))
 app.set('view engine','html')
 
-app.get('/index/',(req,res)=>{
+app.get('/',(req,res)=>{
   res.render('index',{
     title:'HTML'
   })
 })
-
+app.get('/index/home', (req, res) => {
+  res.render('index', {
+    title: 'HTML'
+  })
+})
 
 //https://m.gome.com.cn/index.php?ctl=goods_class&act=ajaxGetClassList&cid=17951828
+//国美数据
 app.get('/api/guomei',(req,res)=>{
   let getData = require('./queryApi')
   getData(`/index.php?ctl=goods_class&act=ajaxGetClassList&cid=${req.query.id}`).then(result=>{
@@ -32,6 +37,7 @@ app.get('/api/guomei',(req,res)=>{
   })
 })
 
+//下拉加载首页数据
 app.get('/search',(req,res)=>{
   let pathname = path.resolve('goodslist');
   let contents = fs.readFileSync(pathname + `/list${req.query.page}.json`);
@@ -41,10 +47,13 @@ app.get('/search',(req,res)=>{
   }, 2000);
 })
 
+//渲染首页列表
 app.get('/list', (req, res) => {
   let result = fs.readFileSync('./list.json','utf-8')
   res.end(result)
 })
+
+//注册接口
 app.post('/api/register',(req,res)=>{
   let loginsPath = path.resolve('logins')
   let content = JSON.parse(fs.readFileSync(loginsPath + '/logins.json', 'utf-8'))
@@ -73,6 +82,7 @@ app.post('/api/register',(req,res)=>{
   })
 })
 
+//登录接口
 app.post('/api/login',(req,res)=>{
   let loginsPath = path.resolve ('logins');
   let loginCon = JSON.parse(fs.readFileSync(loginsPath + '/logins.json', 'utf-8'))
@@ -93,6 +103,7 @@ app.post('/api/login',(req,res)=>{
   }
 })
 
+//读取商品列表
 app.post('/api/shoplist',(req,res)=>{
   let cons = path.resolve('addshop');
   let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
@@ -111,6 +122,7 @@ app.post('/api/shoplist',(req,res)=>{
   })
 })
 
+//添加购物车
 app.post('/api/shopcar',(req,res)=>{
   jwt.verify(req.body.token,'1601E',(err,decode)=>{
     if(err){
@@ -132,13 +144,12 @@ app.post('/api/shopcar',(req,res)=>{
         if(!flag){
           let o ={
             ...req.body.item,
-            count:1,
-            flag:false
+            count:1
           }
           txt[decode.username].push(o)
         }
       }else{
-        txt[decode.username] = [{count: 1,flag:false,...req.body.item}]
+        txt[decode.username] = [{count: 1,...req.body.item}]
       }
       fs.writeFile(cons + '/addshop.json',JSON.stringify(txt),(err)=>{
         if(err){
@@ -156,6 +167,8 @@ app.post('/api/shopcar',(req,res)=>{
     }
   })
 })
+
+//购物车加加减减
 app.post('/api/add',(req,res)=>{
   let cons = path.resolve('addshop');
   let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
@@ -195,6 +208,7 @@ app.post('/api/add',(req,res)=>{
 
 })
 
+//删除购物车
 app.post('/api/delete', (req, res) => {
   let cons = path.resolve('addshop');
   let txt = JSON.parse(fs.readFileSync(cons + '/addshop.json', 'utf-8'))
@@ -222,6 +236,147 @@ app.post('/api/delete', (req, res) => {
     })
 
   })
+})
+
+//结算商品列表
+app.post('/api/result', (req, res) => {
+  let txt = JSON.parse(fs.readFileSync('./resultOrder.json', 'utf-8'))
+  jwt.verify(req.body.token, '1601E', (err, decode) => {
+    if (err) {
+      res.json({
+        code: 0,
+        msg: '过期了'
+      })
+      return;
+    }
+    let add = 0;
+    if(req.body.flag){
+      if (txt[decode.username]) {
+        let flag = false;
+        txt[decode.username].forEach(item => {
+          if (item.title == req.body.item.title) {
+            flag = true;
+          }
+        })
+        if (!flag) {
+          txt[decode.username].push(req.body.item)
+        }
+      } else {
+        txt[decode.username] = [req.body.item]
+      }
+    }else{
+      txt[decode.username].map((item,index) => {
+        if (item.title == req.body.item.title) {
+          txt[decode.username].splice(index, 1)
+        }
+      })
+    }
+    fs.writeFile('./resultOrder.json', JSON.stringify(txt), (err) => {
+      if (err) {
+        res.json({
+          code: 0,
+          msg: '写入失败'
+        })
+      } else {
+        res.json({
+          code: 1,
+          msg: 'success'
+        })
+      }
+    })
+  })
+})
+
+app.post('/api/resultshops',(req,res)=>{
+  let txt = JSON.parse(fs.readFileSync('./resultOrder.json', 'utf-8'))
+  jwt.verify(req.body.token, '1601E', (err, decode) => {
+    if (err) {
+      res.json({
+        code: 0,
+        msg: '过期了'
+      })
+      return;
+    }
+    res.json({
+      code:1,
+      msg: txt[decode.username]
+    })
+  })
+})
+
+//添加收货地址
+app.post('/api/addaddr',(req,res)=>{
+  const addr = path.resolve('addaddr');
+  let cons = JSON.parse(fs.readFileSync(addr+'/addaddr.json'));
+  jwt.verify(req.body.token,'1601E',(err,decoded)=>{
+    if(err){
+      res.json({
+        code:0,
+        msg:'登陆超时了'
+      })
+    }else{
+      if (cons[decoded.username]){
+        cons[decoded.username].push(req.body.data)
+      }else{
+        cons[decoded.username] = [req.body.data]
+      }
+      fs.writeFile(addr+'/addaddr.json',JSON.stringify(cons),(error)=>{
+        if(error){
+          res.json({
+            code: 0,
+            msg: '写入失败'
+          })
+        }else{
+          res.json({
+            code: 1,
+            msg: '写入成功'
+          })
+        }
+      })
+    }
+  })
+})
+
+//读取收货地址列表
+app.post('/api/address',(req,res)=>{
+   const addr = path.resolve('addaddr');
+   let cons = JSON.parse(fs.readFileSync(addr + '/addaddr.json'));
+   jwt.verify(req.body.token,'1601E',(err,decode)=>{
+     if(err){
+       res.json({
+         code:0,
+         msg:'登陆超时了'
+       })
+     }else{
+       res.json({
+         code:1,
+         msg:cons[decode.username]||[]
+       })
+     }
+   })
+})
+
+//
+app.post('/api/selectAddr',(req,res)=>{
+  const addr = path.resolve('addaddr');
+   let cons = JSON.parse(fs.readFileSync(addr + '/addaddr.json'));
+   jwt.verify(req.body.token,'1601E',(err,decode)=>{
+     if(err){
+       res.json({
+         code:0,
+         msg:'登录超时,即将跳往登录页'
+       })
+     }else{
+       cons[decode.username].map(item=>{
+         if(item.name==req.body.name){
+           res.json({
+             code:1,
+             msg:item
+           })
+         }
+       })
+     }
+   })
 })
 app.listen('3000',()=>{
   console.log('profect!')

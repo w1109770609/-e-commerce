@@ -1,17 +1,36 @@
 <template>
   <div class="page">
+    <transition name="pay">
+      <div class="payment_sure" v-show="pay_flag">
+        <div class="paymentL">
+          <div class="tit">
+            <span @click="pay_flag=false">X</span>
+            <span>付款详情</span>
+            <span></span>
+          </div>
+          <div class="payList">
+            <p><span>余额支付</span><span>￥{{balance}}.00</span></p>
+            <p><span>奖金支付</span><span>￥{{bonus}}.00</span></p>
+            <p><span>总计</span><strong>￥{{balance+bonus}}.00</strong></p>
+          </div>
+          <div class="sures">
+            <button @click="sure_pay">确认付款</button>
+          </div>
+        </div>
+      </div>
+    </transition>
     <section>
       <Ordertit>我的订单</Ordertit>
       <div class="address_l">
-        <div class="address" v-show="flagAddress">
-          <p><strong>路飞</strong> <span>15735173622</span></p>
-          <p>北京市海定区知春路北京市海定区知春路北京市海定区知春路</p>
+        <div class="address" v-show="$store.state.address_l['name']" @click="addaddr">
+          <AddressItem :item="$store.state.address_l"></AddressItem>
         </div>
-        <div class="add">
+        <div class="add" v-show="!$store.state.address_l['name']" @click="addAddress">
           请添加您的收货地址
         </div>
       </div>
       <div class="shoplist">
+          <!-- computedL -->
         <ComputedShops :flags="flag" v-for="(item,index) in $store.state.computedL" :key="index" :item="item"></ComputedShops>
       </div>
       <div class="totalMoney">
@@ -29,19 +48,25 @@
       </div>
     </section>
     <div class="submit">
-      <span @click="subShops">提交订单</span>
+      <p>
+        <strong>总计:{{this.total}}.00</strong>
+        <span @click="subShops">提交订单</span>
+      </p>
     </div>
   </div>
 </template>
 
 <script>
 import ComputedShops from '@/components/computedShops/computedShops';
+import AddressItem from '@/components/addressItem/addressItem';
 import Ordertit from '@/components/ordertit/ordertit';
 import Cricle from '@/components/cricle/cricle';
 import {mapState} from 'vuex';
+import {getCookie} from '@/until/cookie';
 export default {
   data() {
     return {
+      pay_flag:false,
       flagAddress: false,
       flag: false,
       msg: '',
@@ -50,45 +75,66 @@ export default {
         balance:1000,
         bonus:100
       },
-      total:0
+      balance:0,
+      bonus:0,
+      total:0,
+      computedL:[]
     };
   },
   computed: {
     ...mapState(['totalSum']),
   },
   methods:{
+    addaddr(){
+      this.$router.push({
+        name:'address'
+      })
+    },
+    addAddress(){
+      this.$router.push({
+        name:'address'
+      })
+    },
+    sure_pay(){
+      sessionStorage.setItem('paytotal',JSON.stringify({total:this.$store.state.totalSum,balance:this.balance,bonus:this.bonus}))
+      this.$router.push({
+        name:'paysuccess'
+      })
+    },
     subShops(){
-      if(!this.flagAddress){
-
-        // this.dialog.$emit('upDialog',{
-        //   flag:true,
-        //   btnArr:[{att:'close',txt:'取消'},{att:'add',txt:'去添加'}],
-        //   middle:true
-        // })
-        // this.flagAddress=true
+      if(!this.$store.state.address_l['name']){
+        this.dialog.$emit('upDialog',{
+          flag:true,
+          btnArr:[{att:'close',txt:'取消'},{att:'add',txt:'去添加'}],
+          middle:true
+        })
+        return;
       }
       if(this.total>this.$store.state.totalSum){
-        alert(23)
+        this.pay_flag = true
+      }else{
+        this.$toast.$emit('activeShow','金额不足,请选择其他方式支付!')
       }
-    },
-    sureF(){
-      this.flagAddress = true
     },
     upFlag(val){
       let {flag,name} = val;
       switch(name){
         case 'balance':
           if(flag){
-            this.total += this.payment.balance
+            this.total += this.payment.balance;
+            this.balance = this.payment.balance
           }else{
-            this.total =this.total-this.payment.balance
+            this.total =this.total-this.payment.balance;
+            this.balance = 0
           }
           break;
         case 'bonus':
           if(flag){
             this.total += this.payment.bonus
+            this.bonus = this.payment.bonus
           }else{
             this.total =this.total-this.payment.bonus
+            this.bonus = 0;
           }
           break;
       }
@@ -98,67 +144,28 @@ export default {
     ComputedShops,
     Ordertit,
     Cricle,
+    AddressItem
   },
   mounted() {
     this.$store.dispatch('fetch_list');
+    // this.$http.post('/api/resultshops',{
+    //   token:getCookie('keyword')
+    // }).then(res=>{
+    //   if(res.code==1){
+    //     this.computedL = res.msg
+    //   }
+    // })
+
+    this.dialog.$on('through',()=>{
+      this.$router.push({
+        name:'address'
+      })
+      // this.flagAddress = true
+    })
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.page {
-  color: #666;
-  height:100%;
-  display: flex;
-  flex-direction: column;
-}
-section{
-  flex:1;
-  overflow-y: scroll;
-}
-.address_l {
-  padding: 0 0.2rem;
-}
-.address {
-  p {
-    padding: 0.1rem 0;
-  }
-}
-.add {
-  padding: 0.3rem 0;
-}
-.totalMoney {
-  padding: 0 0.3rem;
-  border-bottom: 4px solid #ccc;
-  p {
-    display: flex;
-    line-height: 2;
-    color: #666;
-    justify-content: space-between;
-    strong {
-      color: red;
-    }
-  }
-}
-.payment {
-  padding: 0 0.3rem;
-  & > div {
-    display: flex;
-    height: 0.9rem;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-.submit {
-  height: 1rem;
-  span {
-    float: right;
-    width: 2.4rem;
-    height: 100%;
-    background: #ff3333;
-    text-align: center;
-    line-height: 1rem;
-    color: #fff;
-  }
-}
+  @import './result.scss'
 </style>

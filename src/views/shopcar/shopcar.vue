@@ -4,7 +4,7 @@
       <span></span><span>购物车</span><strong @click="writes">{{msg}}</strong>
     </header>
     <Toast></Toast>
-    <div class="shopList">
+    <div class="shoplist">
       <ComputedShops :flags="flag" v-for="(item,index) in $store.state.computedL" :key="index" :item="item"></ComputedShops>
     </div>
     <div class="footer">
@@ -51,7 +51,6 @@ export default {
           }
         })
       })
-
     },
     writes(){
       if(this.msg == '编辑'){
@@ -85,60 +84,5 @@ export default {
 }
 </script>
 
-<style scoped>
-  header{
-    height:.9rem;
-    font-size: .35rem;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding: 0 .2rem;
-    color:#666;
-  }
-  .shopcar{
-    height:100%;
-    display: flex;
-    flex-direction:column;
-  }
-  .shopList{
-    flex:1;
-    overflow-y: scroll;
-  }
- .footer{
-    height:1rem;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-  }
-  .delete{
-    width:2rem;
-    background: #F71919;
-    height:100%;
-    color:#fff;
-    text-align: center;
-    line-height: 1rem;
-  }
-  .right{
-    display:flex;
-    height:100%;
-  }
-  .total{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    padding-right:10px;
-  }
-  .total span:nth-child(1){
-    color:#F71919;
-  }.total span:nth-child(2){
-    color:#ccc;
-  }
-  .submit{
-    width:100px;
-    text-align:center;
-    line-height:45px;
-    background:#FB4141;
-    color:#fff;
-  }
+<style scoped src="./shopcar.css">
 </style>
